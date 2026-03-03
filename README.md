@@ -13,7 +13,6 @@ https://youtu.be/nGulfH0APz4
 - Curiosity Nano Explorer (EV58G97A)
 
 ## 📋 What it does
-- Uses SW on Curiosity Nano Explorer as 2 inputs (CLBIN0PPS, CLBIN1PPS)
 - Configures CLB1 as a hardware AND gate
-- Routes output to PPS_OUT0
+- LED0 on Curiosity Nano lights up only when both switches are pressed simultaneously
 - Logic runs entirely in hardware via CLB — no code needed in main.c
