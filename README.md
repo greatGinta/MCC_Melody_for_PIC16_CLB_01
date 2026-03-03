@@ -10,8 +10,10 @@ https://youtu.be/nGulfH0APz4
 - MPLAB X IDE v6.25
 - MCC Melody
 - PIC16F13145 Curiosity Nano (EV06M52A)
+- Curiosity Nano Explorer (EV58G97A)
 
 ## 📋 What it does
-- Configures CLB1 as a 2-input AND gate using CLBIN0PPS and CLBIN1PPS as inputs
+- Uses SW on Curiosity Nano Explorer as 2 inputs (CLBIN0PPS, CLBIN1PPS)
+- Configures CLB1 as a hardware AND gate
 - Routes output to PPS_OUT0
 - Logic runs entirely in hardware via CLB — no code needed in main.c
